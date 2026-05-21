@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxe Nail Bar & Spa | Beautiful Nails & Relaxing Experience in Austin, TX</title>
+    <meta name="description" content="Treat yourself to high-quality nail care, spa pedicures, and stunning custom nail designs in a clean, luxurious environment at Luxe Nail Bar & Spa, Austin. Walk-ins welcome!">
+    <meta name="keywords" content="nail salon Austin, manicures, spa pedicures, acrylic nails, gel polish, dipping powder, nail art Austin, Luxe Nail Bar">
+    <meta name="author" content="Luxe Nail Bar & Spa">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Luxe Nail Bar & Spa | Beautiful Nails & Relaxing Experience in Austin, TX">
+    <meta property="og:description" content="High-quality nail care, luxury spa pedicures, and stunning custom designs. Clean & sanitized tools, certified technicians, relaxing atmosphere.">
+    <meta property="og:image" content="assets/hero-bg.png">
+
+    <!-- Fonts: Cormorant Garamond (Serif heading) & Outfit (Geometric sans-serif body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Premium Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Local Business JSON-LD Schema Markup (SEO) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "NailSalon",
+      "name": "Luxe Nail Bar & Spa",
+      "image": "https://luxenailbarspa-austin.com/assets/hero-bg.png",
+      "@id": "https://luxenailbarspa-austin.com",
+      "url": "https://luxenailbarspa-austin.com",
+      "telephone": "+1-512-555-0199",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1108 West Ave Suite B",
+        "addressLocality": "Austin",
+        "addressRegion": "TX",
+        "postalCode": "78701",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 30.2755,
+        "longitude": -97.7492
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "09:30",
+          "closes": "19:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "11:00",
+          "closes": "17:00"
+        }
+      ],
+      "sameAs": [
+        "https://www.instagram.com/luxenailbar_austin",
+        "https://www.facebook.com/luxenailbar_austin"
+      ]
+    }
+    </script>
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo" id="header-logo">
+                <span class="logo-light">LUXE</span><span class="logo-accent">NAILS</span>
+            </a>
+            
+            <nav class="nav" id="main-nav">
+                <a href="#" class="nav-link active">Home</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#gallery" class="nav-link">Gallery</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#reviews" class="nav-link">Reviews</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="header-actions">
+                <a href="tel:+15125550199" class="btn-phone" aria-label="Call Luxe Nails"><i class="fa-solid fa-phone"></i> <span>(512) 555-0199</span></a>
+                <button class="btn btn-primary btn-book-trigger">Book Appointment</button>
+            </div>
+
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Overlay -->
+    <div class="mobile-menu" id="mobile-menu">
+        <nav class="mobile-nav">
+            <a href="#" class="mobile-link">Home</a>
+            <a href="#services" class="mobile-link">Services</a>
+            <a href="#gallery" class="mobile-link">Gallery</a>
+            <a href="#about" class="mobile-link">About</a>
+            <a href="#reviews" class="mobile-link">Reviews</a>
+            <a href="#contact" class="mobile-link">Contact</a>
+            <a href="tel:+15125550199" class="mobile-phone"><i class="fa-solid fa-phone"></i> Call: (512) 555-0199</a>
+            <button class="btn btn-primary btn-book-trigger" style="width: 100%; margin-top: 1rem;">Book Appointment</button>
+        </nav>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="hero-subtitle"><i class="fa-solid fa-sparkles text-gold"></i> Premium Nail Artistry</span>
+                    <h1 class="hero-title">Beautiful Nails,<br><span class="text-serif-italic">Relaxing Experience</span></h1>
+                    <p class="hero-description">Treat yourself to high-quality nail care, therapeutic spa pedicures, and custom nail designs in our clean, luxurious Austin salon.</p>
+                    
+                    <div class="hero-actions">
+                        <button class="btn btn-primary btn-book-trigger">Book Appointment</button>
+                        <a href="#services" class="btn btn-secondary">View Services <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                    
+                    <div class="hero-features">
+                        <div class="feature-tag"><i class="fa-solid fa-circle-check"></i> Walk-ins Welcome</div>
+                        <div class="feature-tag"><i class="fa-solid fa-circle-check"></i> 100% Sanitized Tools</div>
+                        <div class="feature-tag"><i class="fa-solid fa-circle-check"></i> Certified Techs</div>
+                    </div>
+                </div>
+                <div class="hero-gallery">
+                    <div class="hero-image-wrapper main-img">
+                        <img src="assets/hero-bg.png" alt="Stunning custom nail manicure artistry" class="hero-image">
+                    </div>
+                    <div class="hero-image-overlay-card">
+                        <div class="avatar-group">
+                            <span class="avatar"><i class="fa-solid fa-user-circle"></i></span>
+                            <span class="avatar"><i class="fa-solid fa-user-circle"></i></span>
+                            <span class="avatar"><i class="fa-solid fa-user-circle"></i></span>
+                        </div>
+                        <div class="card-info">
+                            <span class="stars"><i class="fa-solid fa-star"></i> 4.9 Rating</span>
+                            <span class="caption">from 450+ Local Clients</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quick Info Bar -->
+        <section class="quick-info">
+            <div class="container info-grid">
+                <div class="info-card">
+                    <div class="info-icon"><i class="fa-regular fa-clock"></i></div>
+                    <div class="info-details">
+                        <h3>Opening Hours</h3>
+                        <p>Mon - Sat: 9:30 AM - 7:00 PM</p>
+                        <p>Sunday: 11:00 AM - 5:00 PM</p>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                    <div class="info-details">
+                        <h3>Our Location</h3>
+                        <p>1108 West Ave Suite B</p>
+                        <p>Austin, TX 78701</p>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon"><i class="fa-solid fa-phone-volume"></i></div>
+                    <div class="info-details">
+                        <h3>Call Us Today</h3>
+                        <p><a href="tel:+15125550199" class="phone-link">(512) 555-0199</a></p>
+                        <p class="sub-text">Tap to Call Directly</p>
+                    </div>
+                </div>
+                <div class="info-card highlight">
+                    <div class="info-icon"><i class="fa-regular fa-calendar-check"></i></div>
+                    <div class="info-details">
+                        <h3>Online Booking</h3>
+                        <p>Instantly secure your spot.</p>
+                        <button class="btn btn-small btn-white btn-book-trigger">Book Now <i class="fa-solid fa-angle-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services" id="services">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">What We Offer</span>
+                    <h2 class="section-title">Nail Care Made for Every Style</h2>
+                    <p class="section-description">Whether you love a clean natural look, a bold acrylic set, or detailed custom nail art, our expert technicians provide professional services tailored to your style.</p>
+                </div>
+
+                <div class="services-grid">
+                    <!-- Service 1: Manicure -->
+                    <div class="service-card">
+                        <div class="service-image-wrapper">
+                            <img src="assets/service-mani.jpg" alt="Classic & Gel Manicure Services">
+                            <span class="price-badge">Starting at $25</span>
+                        </div>
+                        <div class="service-body">
+                            <h3>Manicures</h3>
+                            <p>Indulge in a relaxing treat. Services include nail shaping, cuticle care, hand massage, and professional polishing. Upgrade to long-lasting gel polish or strong dipping powder.</p>
+                            <ul class="service-features">
+                                <li><i class="fa-solid fa-circle-check text-gold"></i> Classic Manicure ($25)</li>
+                                <li><i class="fa-solid fa-circle-check text-gold"></i> Gel Manicure ($40)</li>
+                                <li><i class="fa-solid fa-circle-check text-gold"></i> Dipping Powder ($50)</li>
+                            </ul>
+                            <button class="btn btn-secondary btn-book-trigger-service" data-service="Manicures">Book Service</button>
+                        </div>
+                    </div>
+
+                    <!-- Service 2: Pedicure -->
+                    <div class="service-card">
+                        <div class="service-image-wrapper">
+                            <img src="assets/service-pedi.jpg" alt="Relaxing Spa Pedicure Services">
+                            <span class="price-badge">Starting at $35</span>
+                        </div>
+                        <div class="service-body">
+                            <h3>Pedicures</h3>
+                            <p>Give your feet the ultimate relaxation. Relax in our premium massage chairs and enjoy soothing foot scrubs, hot towels, relaxing massage, and precise toe nail detailing.</p>
+                            <ul class="service-features">
+                                <li><i class="fa-solid fa-circle-check text-gold"></i> Express Pedicure ($35)</li>
+                                <li><i class="fa-solid fa-circle-check text-gold"></i> Signature Spa Pedicure ($48)</li>
+                                <li><i class="fa-solid fa-circle-check text-gold"></i> Organic Deluxe Pedi ($65)</li>
+                            </ul>
+                            <button class="btn btn-secondary btn-book-trigger-service" data-service="Pedicures">Book Service</button>
+                        </div>
+                    </div>
+
+                    <!-- Service 3: Acrylic & Extensions -->
+                    <div class="service-card">
+                        <div class="service-image-wrapper">
+                            <img src="assets/service-acrylic.jpg" alt="Acrylic Full Sets & Extensions">
+                            <span class="price-badge">Starting at $45</span>
+                        </div>
+                        <div class="service-body">
+                            <h3>Acrylic & Extensions</h3>
+                            <p>Stunning, durable, and customized nail extensions. Choose your length, shape (coffin, almond, stiletto, square), and finish. Our high-grade acrylics ensure durability.</p>
+                            <ul class="service-features">
+                                <li><i class="fa-solid fa-circle-check text-gold"></i> Full Set Classic ($45+)</li>
+                                <li><i class="fa-solid fa-circle-check text-gold"></i> Pink & White Full Set ($55+)</li>
+                                <li><i class="fa-solid fa-circle-check text-gold"></i> Acrylic Refill ($35+)</li>
+                            </ul>
+                            <button class="btn btn-secondary btn-book-trigger-service" data-service="Acrylic & Extensions">Book Service</button>
+                        </div>
+                    </div>
+
+                    <!-- Service 4: Gel-X & Builder Gel -->
+                    <div class="service-card">
+                        <div class="service-image-wrapper">
+                            <img src="assets/service-gelx.jpg" alt="Gel-X & Builder Gel Extensions">
+                            <span class="price-badge">Starting at $55</span>
+                        </div>
+                        <div class="service-body">
+                            <h3>Gel-X & Builder Gel</h3>
+                            <p>Lightweight, natural-looking, and damage-free nail extensions. Gel-X full coverage tips offer amazing durability, while Builder Gel reinforces your natural nails with strength.</p>
+                            <ul class="service-features">
+                                <li><i class="fa-solid fa-circle-check text-gold"></i> Gel-X Full Set ($55)</li>
+                                <li><i class="fa-solid fa-circle-check text-gold"></i> Builder Gel Overlay ($50)</li>
+                                <li><i class="fa-solid fa-circle-check text-gold"></i> Gel-X Fill ($45)</li>
+                            </ul>
+                            <button class="btn btn-secondary btn-book-trigger-service" data-service="Gel-X & Builder Gel">Book Service</button>
+                        </div>
+                    </div>
+
+                    <!-- Service 5: Custom Nail Art -->
+                    <div class="service-card">
+                        <div class="service-image-wrapper">
+                            <img src="assets/service-art.jpg" alt="Custom Nail Art & Embellishments">
+                            <span class="price-badge">Add-on Available</span>
+                        </div>
+                        <div class="service-body">
+                            <h3>Custom Nail Art</h3>
+                            <p>Express your unique personality! From clean French tips and sleek chrome details to complex freehand drawings, ombre gradients, and high-end gemstone accents.</p>
+                            <ul class="service-features">
+                                <li><i class="fa-solid fa-circle-check text-gold"></i> French Tips & Chrome (+$15)</li>
+                                <li><i class="fa-solid fa-circle-check text-gold"></i> Simple Custom Design (+$20+)</li>
+                                <li><i class="fa-solid fa-circle-check text-gold"></i> Luxury Detailed Art (+$35+)</li>
+                            </ul>
+                            <button class="btn btn-secondary btn-book-trigger-service" data-service="Custom Nail Art">Book Service</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services-cta text-center">
+                    <button class="btn btn-primary btn-book-trigger">Book Your Nail Session Today</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Promotion Banner / Featured Service -->
+        <section class="promotion">
+            <div class="container">
+                <div class="promo-box">
+                    <div class="promo-content">
+                        <span class="promo-badge"><i class="fa-solid fa-percent"></i> Special Limited Offer</span>
+                        <h2>New Client Experience</h2>
+                        <p>Enjoy <strong>10% OFF</strong> your very first visit to Serene Luxe Nail Bar. Experience Austin's top-rated nail care and luxury spa service at a wonderful welcome discount.</p>
+                        <button class="btn btn-white" id="claim-offer-btn">Claim Offer & Book <i class="fa-solid fa-gift"></i></button>
+                    </div>
+                    <div class="promo-visual">
+                        <div class="glow-ring"></div>
+                        <div class="glow-card">
+                            <div class="glow-card-header">
+                                <span class="title">WELCOME CARD</span>
+                                <span class="serial">#LUXE10</span>
+                            </div>
+                            <div class="glow-card-body">
+                                <h3>10% OFF</h3>
+                                <p>First Nail Service Appointment</p>
+                            </div>
+                            <div class="glow-card-footer">
+                                <span>Serene Luxe Salon & Spa</span>
+                                <span>★★★★★</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="gallery" id="gallery">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">Our Portfolio</span>
+                    <h2 class="section-title">Recent Nail Designs</h2>
+                    <p class="section-description">Get inspired by beautiful creations designed right here in our salon. Filter the look to find your next favorite design.</p>
+                </div>
+
+                <div class="gallery-filter-tabs">
+                    <button class="filter-tab active" data-filter="all">All Designs</button>
+                    <button class="filter-tab" data-filter="acrylic">Acrylic</button>
+                    <button class="filter-tab" data-filter="gel">Gel</button>
+                    <button class="filter-tab" data-filter="french">French</button>
+                    <button class="filter-tab" data-filter="art">Nail Art</button>
+                    <button class="filter-tab" data-filter="pedi">Pedicure</button>
+                </div>
+
+                <div class="gallery-grid" id="gallery-grid">
+                    <!-- Gallery Item 1 -->
+                    <div class="gallery-item" data-category="art acrylic">
+                        <img src="assets/gallery-1.jpg" alt="Beautiful Almond Chrome Nail Art">
+                        <div class="gallery-item-overlay">
+                            <h4>Sunset Chrome Art</h4>
+                            <span>Acrylic / Nail Art</span>
+                        </div>
+                    </div>
+                    <!-- Gallery Item 2 -->
+                    <div class="gallery-item" data-category="french gel">
+                        <img src="assets/gallery-2.jpg" alt="Modern Minimalist French Tips">
+                        <div class="gallery-item-overlay">
+                            <h4>Minimal Rose French</h4>
+                            <span>Gel / French</span>
+                        </div>
+                    </div>
+                    <!-- Gallery Item 3 -->
+                    <div class="gallery-item" data-category="acrylic art">
+                        <img src="assets/gallery-3.jpg" alt="Bold Custom Coffin Nails with Gemstones">
+                        <div class="gallery-item-overlay">
+                            <h4>Luxury Jewel Coffin</h4>
+                            <span>Acrylic / Nail Art</span>
+                        </div>
+                    </div>
+                    <!-- Gallery Item 4 -->
+                    <div class="gallery-item" data-category="pedi">
+                        <img src="assets/gallery-4.jpg" alt="Relaxing Spa Pedicure Design">
+                        <div class="gallery-item-overlay">
+                            <h4>Perfect Orchid Pedicure</h4>
+                            <span>Pedicure</span>
+                        </div>
+                    </div>
+                    <!-- Gallery Item 5 -->
+                    <div class="gallery-item" data-category="gel art">
+                        <img src="assets/gallery-5.jpg" alt="Short Natural Gel Nails with Art">
+                        <div class="gallery-item-overlay">
+                            <h4>Botanical Sage Gel</h4>
+                            <span>Gel / Nail Art</span>
+                        </div>
+                    </div>
+                    <!-- Gallery Item 6 -->
+                    <div class="gallery-item" data-category="french acrylic">
+                        <img src="assets/gallery-6.jpg" alt="Sleek Ombre French Almond Nails">
+                        <div class="gallery-item-overlay">
+                            <h4>Classic Ombre Almond</h4>
+                            <span>Acrylic / French</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-social text-center">
+                    <p>Want to see daily updates, client designs, and seasonal styles?</p>
+                    <a href="https://www.instagram.com/luxenailbar_austin" target="_blank" rel="noopener noreferrer" class="btn btn-secondary"><i class="fa-brands fa-instagram text-rose"></i> Follow Us on Instagram</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us -->
+        <section class="why-us">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">The Serene Experience</span>
+                    <h2 class="section-title">Why Clients Love Luxe</h2>
+                    <p class="section-description">We go above and beyond standard local salon practices to provide a genuinely premium wellness and cosmetic service.</p>
+                </div>
+
+                <div class="why-us-grid">
+                    <div class="why-card">
+                        <div class="why-icon"><i class="fa-solid fa-hand-sparkles"></i></div>
+                        <h3>Clean & Sanitized Tools</h3>
+                        <p>We use autoclave sterilization methods for medical-grade hygiene. Every file, buffer, and pumice stone is brand new or completely sanitized for your safety.</p>
+                    </div>
+
+                    <div class="why-card">
+                        <div class="why-icon"><i class="fa-solid fa-award"></i></div>
+                        <h3>Experienced Technicians</h3>
+                        <p>Our passionate artists hold advanced licensing and stay at the forefront of nail extension tech, French artistry, and beautiful seasonal trends.</p>
+                    </div>
+
+                    <div class="why-card">
+                        <div class="why-icon"><i class="fa-solid fa-mug-hot"></i></div>
+                        <h3>Relaxing Atmosphere</h3>
+                        <p>Unwind in a spa-like ambiance with soft warm lighting, comfortable seating, complimentary drinks (herbal teas, coffee, or mimosa), and calming music.</p>
+                    </div>
+
+                    <div class="why-card">
+                        <div class="why-icon"><i class="fa-regular fa-face-smile-beam"></i></div>
+                        <h3>Beautiful Results</h3>
+                        <p>We source only high-end non-toxic polishes, vegan-friendly products, and durable extensions, ensuring your nails remain gorgeous and vibrant for weeks.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="container about-container">
+                <div class="about-images">
+                    <div class="about-img-large">
+                        <img src="assets/about-salon.png" alt="Interior of Serene Luxe Nail Bar & Spa">
+                    </div>
+                    <div class="about-img-small">
+                        <img src="assets/about-staff.jpg" alt="Professional and friendly staff">
+                    </div>
+                </div>
+                <div class="about-content">
+                    <span class="section-subtitle">Our Story</span>
+                    <h2 class="section-title">Welcome to Luxe Nail Bar & Spa</h2>
+                    <p>At Luxe Nail Bar & Spa, we believe every client deserves beautiful nails and a relaxing spa experience. Founded in Austin, TX, our luxury salon provides high-end manicures, organic spa pedicures, precise acrylic sets, lightweight Gel-X systems, and highly creative custom nail art in a friendly, sparkling clean environment.</p>
+                    <p>Whether you're celebrating a bridal event, popping in with friends for a weekend pedicure treat, or treating yourself to a fresh gel manicure after work, our dedicated team is committed to making you look and feel your absolute best.</p>
+                    
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <span class="number">10+</span>
+                            <span class="label">Years of Salon Excellence</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="number">100%</span>
+                            <span class="label">Client Satisfaction Goal</span>
+                        </div>
+                    </div>
+
+                    <button class="btn btn-primary btn-book-trigger">Meet Our Team & Book</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reviews / Testimonials -->
+        <section class="reviews" id="reviews">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-subtitle">Client Reviews</span>
+                    <h2 class="section-title">What Our Clients Say</h2>
+                    <p class="section-description">Read honest reviews from our wonderful local community in Austin. We pride ourselves on exceptional customer care.</p>
+                </div>
+
+                <div class="reviews-carousel" id="reviews-carousel">
+                    <!-- Slide 1 -->
+                    <div class="review-slide active">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <blockquote class="review-quote">
+                            "The absolute best nail experience I've had in Austin! Luxe is incredibly clean, and the staff are true artists. My Gel-X set came out exactly like the Instagram photo I showed them. I'm officially a regular customer now!"
+                        </blockquote>
+                        <div class="review-author">
+                            <div class="author-avatar"><i class="fa-solid fa-user-circle"></i></div>
+                            <div class="author-info">
+                                <h4>Sarah M.</h4>
+                                <span>Verified Customer • Google Local Guide</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="review-slide">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <blockquote class="review-quote">
+                            "The Signature Spa Pedicure was heaven. They offered me a hot tea, the massage chairs are amazing, and they took their time to do a flawless pedicure. The safety and sanitation procedures here are unmatched!"
+                        </blockquote>
+                        <div class="review-author">
+                            <div class="author-avatar"><i class="fa-solid fa-user-circle"></i></div>
+                            <div class="author-info">
+                                <h4>Jessica T.</h4>
+                                <span>Verified Customer • Austin, TX</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="review-slide">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <blockquote class="review-quote">
+                            "Highly recommend for custom nail art! I got an ombre set with delicate gold leaf details for my wedding and received endless compliments. The service is incredibly polite and professional."
+                        </blockquote>
+                        <div class="review-author">
+                            <div class="author-avatar"><i class="fa-solid fa-user-circle"></i></div>
+                            <div class="author-info">
+                                <h4>Michael R.</h4>
+                                <span>Verified Customer • Wedding Client</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-dots" id="carousel-dots">
+                    <span class="dot active" data-index="0"></span>
+                    <span class="dot" data-index="1"></span>
+                    <span class="dot" data-index="2"></span>
+                </div>
+
+                <div class="reviews-external text-center">
+                    <a href="https://google.com" target="_blank" rel="noopener noreferrer" class="btn btn-google"><i class="fa-brands fa-google text-blue"></i> Read More Reviews on Google</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Booking CTA Section -->
+        <section class="booking-cta">
+            <div class="container booking-cta-container">
+                <div class="booking-cta-content">
+                    <h2>Your Next Nail Day Starts Here</h2>
+                    <p>Schedule your professional manicure, organic pedicure, strong acrylic extension, or unique custom nail design. Enjoy complimentary beverages and high-end relaxation.</p>
+                    <div class="booking-cta-buttons">
+                        <button class="btn btn-primary btn-book-trigger">Book Online Now</button>
+                        <a href="tel:+15125550199" class="btn btn-outline-white"><i class="fa-solid fa-phone"></i> Call (512) 555-0199</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Location / Contact Section -->
+        <section class="contact" id="contact">
+            <div class="container contact-grid">
+                <div class="contact-info-block">
+                    <span class="section-subtitle">Visit Us</span>
+                    <h2 class="section-title">Get in Touch</h2>
+                    <p>We are conveniently located in downtown Austin, TX, with free dedicated parking for salon guests in the rear.</p>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div class="text">
+                                <h4>Address</h4>
+                                <p>1108 West Ave Suite B, Austin, TX 78701</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                            <div class="text">
+                                <h4>Phone</h4>
+                                <p><a href="tel:+15125550199">(512) 555-0199</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div class="text">
+                                <h4>Email</h4>
+                                <p><a href="mailto:info@luxenailsandspa.com">info@luxenailsandspa.com</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="icon"><i class="fa-regular fa-clock"></i></div>
+                            <div class="text">
+                                <h4>Hours</h4>
+                                <p>Mon - Sat: 9:30 AM - 7:00 PM<br>Sunday: 11:00 AM - 5:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="https://maps.google.com/?q=1108+West+Ave+Suite+B+Austin+TX+78701" target="_blank" rel="noopener noreferrer" class="btn btn-primary"><i class="fa-solid fa-diamond-turn-right"></i> Get Directions</a>
+                </div>
+
+                <div class="contact-map-block">
+                    <!-- Beautiful Custom Map Simulation -->
+                    <div class="map-simulation">
+                        <div class="map-background">
+                            <div class="map-grid-line h1"></div>
+                            <div class="map-grid-line h2"></div>
+                            <div class="map-grid-line v1"></div>
+                            <div class="map-grid-line v2"></div>
+                            <div class="map-road park-street"><span>West Avenue</span></div>
+                            <div class="map-road main-street"><span>11th Street</span></div>
+                            <div class="map-point park-zone"><span>House Park</span></div>
+                            
+                            <!-- Custom Pin -->
+                            <div class="map-pin">
+                                <div class="pulse"></div>
+                                <i class="fa-solid fa-location-dot"></i>
+                                <div class="pin-tooltip">
+                                    <strong>Luxe Nail Bar</strong>
+                                    <span>Suite B</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="map-overlay-card">
+                            <i class="fa-solid fa-map-location-dot text-gold"></i>
+                            <div class="card-details">
+                                <strong>Luxe Nail Bar & Spa</strong>
+                                <span>1108 West Ave Suite B, Austin</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <span class="logo-light">LUXE</span><span class="logo-accent">NAILS</span>
+                </a>
+                <p class="brand-desc">Professional nail salon offering luxury manicures, organic spa pedicures, strong acrylic extensions, dipping powder, and highly custom nail art designs in Austin, TX.</p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/luxenailbar_austin" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/luxenailbar_austin" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#services">Services Menu</a></li>
+                    <li><a href="#gallery">Recent Work Gallery</a></li>
+                    <li><a href="#about">About Our Salon</a></li>
+                    <li><a href="#reviews">Customer Reviews</a></li>
+                    <li><a href="#contact">Contact & Location</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h3>Get In Touch</h3>
+                <p><i class="fa-solid fa-phone text-gold"></i> <a href="tel:+15125550199">(512) 555-0199</a></p>
+                <p><i class="fa-solid fa-location-dot text-gold"></i> 1108 West Ave Suite B, Austin, TX 78701</p>
+                <p><i class="fa-regular fa-envelope text-gold"></i> <a href="mailto:info@luxenailsandspa.com">info@luxenailsandspa.com</a></p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container bottom-container">
+                <p>&copy; 2026 Luxe Nail Bar & Spa. All Rights Reserved.</p>
+                <div class="bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Interactive Bottom Bar for Mobile Navigation -->
+    <div class="mobile-sticky-bar">
+        <a href="tel:+15125550199" class="sticky-action">
+            <i class="fa-solid fa-phone"></i>
+            <span>Call Us</span>
+        </a>
+        <button class="sticky-action btn-book-trigger highlight-book">
+            <i class="fa-solid fa-calendar-days"></i>
+            <span>Book Now</span>
+        </button>
+        <a href="https://maps.google.com/?q=1108+West+Ave+Suite+B+Austin+TX+78701" target="_blank" rel="noopener noreferrer" class="sticky-action">
+            <i class="fa-solid fa-diamond-turn-right"></i>
+            <span>Directions</span>
+        </a>
+    </div>
+
+    <!-- Dynamic Simulated Online Booking Wizard Modal -->
+    <div class="booking-modal-overlay" id="booking-modal">
+        <div class="booking-modal-card">
+            <button class="modal-close" id="modal-close-btn" aria-label="Close booking modal"><i class="fa-solid fa-xmark"></i></button>
+            
+            <div class="modal-header">
+                <h2>Book Appointment</h2>
+                <p>Austin, TX • Online Reservation</p>
+                
+                <!-- Wizard Steps Indicator -->
+                <div class="wizard-steps">
+                    <span class="step-dot active" data-step="1">1</span>
+                    <span class="step-line"></span>
+                    <span class="step-dot" data-step="2">2</span>
+                    <span class="step-line"></span>
+                    <span class="step-dot" data-step="3">3</span>
+                    <span class="step-line"></span>
+                    <span class="step-dot" data-step="4">4</span>
+                </div>
+            </div>
+
+            <div class="modal-body">
+                <!-- Step 1: Select Service -->
+                <div class="wizard-panel active" id="panel-step-1">
+                    <h3>Choose Your Service(s)</h3>
+                    <p class="panel-desc">Select one or more services to add to your appointment.</p>
+                    
+                    <div class="service-selection-list">
+                        <label class="service-select-item">
+                            <input type="checkbox" name="booking-service" value="Classic Manicure" data-price="25" checked>
+                            <div class="item-content">
+                                <span class="title">Classic Manicure</span>
+                                <span class="desc">Shaping, cuticle care, hand massage & regular polish</span>
+                            </div>
+                            <span class="price">$25</span>
+                        </label>
+
+                        <label class="service-select-item">
+                            <input type="checkbox" name="booking-service" value="Gel Manicure" data-price="40">
+                            <div class="item-content">
+                                <span class="title">Gel Manicure</span>
+                                <span class="desc">Premium long-lasting gel polish cured under LED light</span>
+                            </div>
+                            <span class="price">$40</span>
+                        </label>
+
+                        <label class="service-select-item">
+                            <input type="checkbox" name="booking-service" value="Signature Spa Pedicure" data-price="48">
+                            <div class="item-content">
+                                <span class="title">Signature Spa Pedicure</span>
+                                <span class="desc">Sea salt soak, exfoliating scrub, hot towels, relaxing massage</span>
+                            </div>
+                            <span class="price">$48</span>
+                        </label>
+
+                        <label class="service-select-item">
+                            <input type="checkbox" name="booking-service" value="Acrylic Full Set" data-price="45">
+                            <div class="item-content">
+                                <span class="title">Acrylic Full Set</span>
+                                <span class="desc">High-quality tips customized in shape, length & finish</span>
+                            </div>
+                            <span class="price">$45</span>
+                        </label>
+
+                        <label class="service-select-item">
+                            <input type="checkbox" name="booking-service" value="Gel-X Extension Full Set" data-price="55">
+                            <div class="item-content">
+                                <span class="title">Gel-X Extensions Full Set</span>
+                                <span class="desc">Soft gel full coverage extensions, natural & healthy system</span>
+                            </div>
+                            <span class="price">$55</span>
+                        </label>
+
+                        <label class="service-select-item">
+                            <input type="checkbox" name="booking-service" value="Custom Nail Art Add-on" data-price="20">
+                            <div class="item-content">
+                                <span class="title">Custom Nail Art (Add-on)</span>
+                                <span class="desc">Chrome, French tips, custom hand-drawn elements, gemstones</span>
+                            </div>
+                            <span class="price">+$20</span>
+                        </label>
+                    </div>
+
+                    <div class="wizard-footer">
+                        <div class="total-summary">Total: <span id="temp-total-price">$25</span></div>
+                        <button class="btn btn-primary" id="btn-next-step-1">Next: Select Artist <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+
+                <!-- Step 2: Select Artist/Technician -->
+                <div class="wizard-panel" id="panel-step-2">
+                    <h3>Select Nail Artist</h3>
+                    <p class="panel-desc">Choose a licensed professional or select "Any Available Artist" for maximum scheduling flexibility.</p>
+                    
+                    <div class="artists-selection-grid">
+                        <label class="artist-select-item active">
+                            <input type="radio" name="booking-artist" value="Any Available Technician" checked>
+                            <div class="artist-avatar-circle"><i class="fa-solid fa-users"></i></div>
+                            <div class="artist-details">
+                                <span class="name">Any Available Tech</span>
+                                <span class="role">Maximum Flexibility</span>
+                            </div>
+                        </label>
+
+                        <label class="artist-select-item">
+                            <input type="radio" name="booking-artist" value="Chloe Nguyen">
+                            <div class="artist-avatar-circle"><i class="fa-solid fa-user-tie"></i></div>
+                            <div class="artist-details">
+                                <span class="name">Chloe Nguyen</span>
+                                <span class="role">Acrylic & Custom Art Expert</span>
+                            </div>
+                        </label>
+
+                        <label class="artist-select-item">
+                            <input type="radio" name="booking-artist" value="Jennifer Kim">
+                            <div class="artist-avatar-circle"><i class="fa-solid fa-user-tie"></i></div>
+                            <div class="artist-details">
+                                <span class="name">Jennifer Kim</span>
+                                <span class="role">Gel-X & Deluxe Pedicures</span>
+                            </div>
+                        </label>
+
+                        <label class="artist-select-item">
+                            <input type="radio" name="booking-artist" value="Alex Rivera">
+                            <div class="artist-avatar-circle"><i class="fa-solid fa-user-tie"></i></div>
+                            <div class="artist-details">
+                                <span class="name">Alex Rivera</span>
+                                <span class="role">Dipping Powder & Hand Care</span>
+                            </div>
+                        </label>
+                    </div>
+
+                    <div class="wizard-footer">
+                        <button class="btn btn-secondary" id="btn-prev-step-2"><i class="fa-solid fa-arrow-left"></i> Back</button>
+                        <button class="btn btn-primary" id="btn-next-step-2">Next: Date & Time <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+
+                <!-- Step 3: Select Date & Time -->
+                <div class="wizard-panel" id="panel-step-3">
+                    <h3>Select Date & Time</h3>
+                    <p class="panel-desc">We offer online reservations up to 30 days in advance.</p>
+                    
+                    <div class="datetime-grid">
+                        <div class="date-selector-wrapper">
+                            <label for="booking-date" class="label-heading">Choose Date</label>
+                            <input type="date" id="booking-date" name="booking-date" class="date-picker-input">
+                        </div>
+
+                        <div class="time-selector-wrapper">
+                            <span class="label-heading">Available Time Slots</span>
+                            <div class="time-slots-grid" id="time-slots-container">
+                                <button type="button" class="time-slot-btn" data-time="09:30 AM">09:30 AM</button>
+                                <button type="button" class="time-slot-btn" data-time="10:30 AM">10:30 AM</button>
+                                <button type="button" class="time-slot-btn active" data-time="11:30 AM">11:30 AM</button>
+                                <button type="button" class="time-slot-btn" data-time="01:00 PM">01:00 PM</button>
+                                <button type="button" class="time-slot-btn" data-time="02:30 PM">02:30 PM</button>
+                                <button type="button" class="time-slot-btn" data-time="04:00 PM">04:00 PM</button>
+                                <button type="button" class="time-slot-btn" data-time="05:30 PM">05:30 PM</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="wizard-footer">
+                        <button class="btn btn-secondary" id="btn-prev-step-3"><i class="fa-solid fa-arrow-left"></i> Back</button>
+                        <button class="btn btn-primary" id="btn-next-step-3">Next: Your Info <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+
+                <!-- Step 4: Personal Info & Confirm -->
+                <div class="wizard-panel" id="panel-step-4">
+                    <h3>Confirm Details</h3>
+                    <p class="panel-desc">Provide your contact details to complete your luxury reservation.</p>
+                    
+                    <form class="booking-contact-form" id="booking-form">
+                        <div class="form-row-2">
+                            <div class="form-group">
+                                <label for="cust-name">Full Name *</label>
+                                <input type="text" id="cust-name" required placeholder="John Doe" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="cust-phone">Phone Number *</label>
+                                <input type="tel" id="cust-phone" required placeholder="(512) 555-0100" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="cust-email">Email Address *</label>
+                            <input type="email" id="cust-email" required placeholder="johndoe@example.com" class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="cust-notes">Special Requests / Design Notes</label>
+                            <textarea id="cust-notes" rows="2" placeholder="Let us know if you want specific colors, French design, acrylic shapes, or special care..." class="form-control"></textarea>
+                        </div>
+                    </form>
+
+                    <div class="booking-summary-receipt">
+                        <h4>Appointment Summary</h4>
+                        <div class="receipt-row">
+                            <span>Services Selected:</span>
+                            <strong id="receipt-services">Classic Manicure</strong>
+                        </div>
+                        <div class="receipt-row">
+                            <span>Nail Artist:</span>
+                            <strong id="receipt-artist">Any Available Artist</strong>
+                        </div>
+                        <div class="receipt-row">
+                            <span>Date & Time:</span>
+                            <strong id="receipt-datetime">Thursday, May 21 at 11:30 AM</strong>
+                        </div>
+                        <div class="receipt-row total">
+                            <span>Estimated Total:</span>
+                            <strong id="receipt-price">$25.00</strong>
+                        </div>
+                    </div>
+
+                    <div class="wizard-footer">
+                        <button class="btn btn-secondary" id="btn-prev-step-4"><i class="fa-solid fa-arrow-left"></i> Back</button>
+                        <button type="submit" form="booking-form" class="btn btn-primary glow-button" id="btn-submit-booking">Confirm Booking <i class="fa-solid fa-circle-check"></i></button>
+                    </div>
+                </div>
+
+                <!-- Success Screen -->
+                <div class="wizard-panel success-panel" id="panel-success">
+                    <div class="success-icon-bounce">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                    <h3>Your Spot is Reserved!</h3>
+                    <p class="success-msg">Congratulations! Your appointment has been booked. A confirmation email and text message has been sent to your contact details.</p>
+                    
+                    <div class="success-details-box">
+                        <div class="sd-row">
+                            <span>Confirmation ID:</span>
+                            <strong>#LX-889312</strong>
+                        </div>
+                        <div class="sd-row">
+                            <span>Date & Time:</span>
+                            <span id="final-datetime">May 21, 2026 at 11:30 AM</span>
+                        </div>
+                        <div class="sd-row">
+                            <span>Nail Artist:</span>
+                            <span id="final-artist">Chloe Nguyen</span>
+                        </div>
+                        <div class="sd-row">
+                            <span>Total Due:</span>
+                            <span id="final-price">$25.00</span>
+                        </div>
+                    </div>
+
+                    <p class="success-sub-text">Please arrive 5-10 minutes prior to your scheduled time to relax and choose your nail colors!</p>
+
+                    <div class="success-actions">
+                        <button class="btn btn-primary" id="btn-close-success">Done</button>
+                        <button class="btn btn-secondary" id="btn-calendar-add"><i class="fa-solid fa-calendar-plus text-gold"></i> Add to Calendar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Active Promo Claimed Toast Notification -->
+    <div class="toast" id="promo-toast">
+        <div class="toast-icon"><i class="fa-solid fa-circle-check"></i></div>
+        <div class="toast-content">
+            <strong>Welcome Promo Claimed!</strong>
+            <p>10% discount will be applied during step 4 of your booking.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
