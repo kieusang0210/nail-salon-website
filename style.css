@@ -2590,6 +2590,19 @@ textarea.form-control {
 
 /* Small phone screens */
 @media (max-width: 480px) {
+    .container {
+        padding: 0 16px;
+    }
+    
+    .hero {
+        padding-top: calc(var(--header-height) + 30px);
+        padding-bottom: 40px;
+    }
+    
+    .services, .gallery, .why-us, .about, .reviews, .booking-cta, .contact {
+        padding: 60px 0;
+    }
+
     .info-grid {
         grid-template-columns: 1fr;
     }
